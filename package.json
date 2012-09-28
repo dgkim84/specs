@@ -1,0 +1,22 @@
+{
+  "name": "api_specs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Daegeun Kim",
+  "main": "dist/specs.js",
+  "bin": {
+    "specs": "dist/cli.js"
+  },
+  "engines": {
+    "node": ">= 0.7"
+  },
+  "dependencies": {
+    "yaml": "0.2.3"
+  },
+  "license": "MIT"
+}
